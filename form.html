@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>MY BIO DATA</h1>
+    <form>
+    <fieldset>
+        <legend><b>Personal Information</b>n</legend>
+        <label for="Username">First Name:</label>
+        <input type="text" id="Username" placeholder="First Name">
+
+        <label for="LName">Last Name:</label>
+        <input type="text" id="LName" placeholder="Last Name" required>
+        <br>
+        <br>
+
+        <label for="Gndr">Male:</label>
+        <input type="radio" id="Gndr" name="Gender">
+        <label for="pndr"> Female:</label>
+       
+        <input type="radio" id="pndr" name="Gender">
+        <label for="cndr">Others:</label>
+       
+        <input type="radio" id="cndr" name="Gender">
+        <br>
+        <br>
+        <label for="ldr">Date:</label>
+        <input type="date"id="ldr" >
+        <br>
+        <br>
+        <label for="cmd">Email:</label>
+        <input type="email" id="cmd" placeholder="Enter your email">
+
+        <br>
+        <br>
+        
+        <label for="tml">Phone:</label>
+        <input type="tel"id="tml" maxlength="10" placeholder="+91"id="tml">
+
+        <br>
+        <br>
+        <label for="llk">Height:</label>
+        <input type="number" placeholder="Height in Feet">
+
+ </fieldset>
+<fieldset>
+    <legend><b>Education</b></legend>
+        <label for="imd" >School Name:</label>
+        <input type="text" id="imd" placeholder="School Name">
+        <br>
+        <br>
+
+        <label for="llm">Class:</label>
+        <input type="number,text" id="llm" placeholder="Enter Class">
+        <br>
+        <br>
+
+        
+        <label for="kls">Stream:</label> 
+        <select name="Stream" id="kls" >
+            <option>stream</option>
+            <option>Science</option>
+            <option>Biology</option>
+            <option>Commerce</option>
+        </select>
+        
+   
+</fieldset>
+<br>
+&nbsp;<input type="submit">
+</form> 
+</body>
+</html>
