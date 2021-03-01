@@ -1,0 +1,32 @@
+div{
+    background-color: rgb(216, 181, 193);
+    
+    border: 2px solid black;
+    margin: 20px;
+    font-size: 2.5rem;
+}
+
+div{
+    position: sticky;
+    top: 10px;
+}
+
+p::before {
+    /* content: "\2706"; */
+    content: "🕻";
+  
+  }
+
+h1{
+    border: solid black;
+    background-color: coral;
+    
+}
+p{
+    font-size: larger;
+    background-color: lightgreen;
+}
+article{
+    size: larger;
+    color: red;
+}
